@@ -6,14 +6,15 @@
 // Consigli del giorno:
 // Consultiamo la documentazione W3Schools o MDN per trovare i metodi javascript che possono esserci utili.
 
+// NOTE: Lista cognomi
 var listaCognomi = ["Neri", "Calvieri", "Romiti", "Bervicato", "Busellato", "Ghilardi"];
 console.log(listaCognomi);
 
+// NOTE: Iinserimento nuovo cognome
 var nuovoCognome = prompt('Inserisci il tuo cognome');
 listaCognomi.push(nuovoCognome);
 
-
-
+// NOTE: Elencare in ordine alfabetico
 console.log(listaCognomi.sort());
 
 for (var i = 0; i < listaCognomi.length; i++) {
@@ -23,3 +24,7 @@ var contenutoPrecedente = document.getElementById('lista_cognomi').innerHTML;
 document.getElementById('lista_cognomi').innerHTML = contenutoPrecedente + "<li>" + listaCognomi[i] + "</li>";
 console.log(i + listaCognomi [i]);
 };
+
+if (listaCognomi[i] != nuovoCognome) {
+  document.getElementById('ultimo').innerHTML = nuovoCognome;
+}
