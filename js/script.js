@@ -11,3 +11,5 @@ console.log(listaCognomi);
 
 var nuovoCognome = prompt('Inserisci il tuo cognome');
 listaCognomi.push(nuovoCognome);
+
+console.log(listaCognomi.sort());
