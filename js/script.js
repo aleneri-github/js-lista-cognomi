@@ -13,3 +13,10 @@ var nuovoCognome = prompt('Inserisci il tuo cognome');
 listaCognomi.push(nuovoCognome);
 
 console.log(listaCognomi.sort());
+
+for (var i = 0; i < listaCognomi.length; i++) {
+  listaCognomi[i]
+
+var contenutoPrecedente = document.getElementById('lista_cognomi').innerHTML;
+document.getElementById('lista_cognomi').innerHTML = contenutoPrecedente + "<li>" + listaCognomi + "</li>";
+};
