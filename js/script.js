@@ -11,7 +11,7 @@ var listaCognomi = ["Neri", "Calvieri", "Romiti", "Bervicato", "Busellato", "Ghi
 console.log(listaCognomi);
 
 // NOTE: Iinserimento nuovo cognome
-var nuovoCognome = prompt('Inserisci il tuo cognome');
+var nuovoCognome = prompt('Inserisci il tuo cognome con la prima lettera maiuscola');
 listaCognomi.push(nuovoCognome);
 
 // NOTE: Elencare in ordine alfabetico
@@ -30,6 +30,5 @@ var i = 0;
 while (listaCognomi[i] != nuovoCognome) {
   i++;
 }
-
  document.getElementById('ultimo').innerHTML =
  nuovoCognome + " e si trova al numero " + (i + 1);
