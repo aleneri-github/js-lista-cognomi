@@ -25,6 +25,12 @@ document.getElementById('lista_cognomi').innerHTML = contenutoPrecedente + "<li>
 console.log(i + listaCognomi [i]);
 };
 
-if (listaCognomi[i] != nuovoCognome) {
-  document.getElementById('ultimo').innerHTML = nuovoCognome;
+var i = 0;
+
+while (listaCognomi[i] != nuovoCognome) {
+  i++;
 }
+
+
+ document.getElementById('ultimo').innerHTML =
+ nuovoCognome + " e si trova al numero " + (i + 1); 
