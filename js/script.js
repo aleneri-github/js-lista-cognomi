@@ -31,6 +31,5 @@ while (listaCognomi[i] != nuovoCognome) {
   i++;
 }
 
-
  document.getElementById('ultimo').innerHTML =
- nuovoCognome + " e si trova al numero " + (i + 1); 
+ nuovoCognome + " e si trova al numero " + (i + 1);

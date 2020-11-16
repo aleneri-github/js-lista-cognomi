@@ -1,9 +1,13 @@
 * {
   background-color: lightgreen;
+  font-size: 20px;
 }
 
 .box {
   width: 50%;
   margin: 0 auto;
+}
 
+h2 {
+  font-size: 25px;
 }
